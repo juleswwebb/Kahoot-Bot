@@ -1,5 +1,5 @@
 const Kahoot = require("kahoot.js-updated")
-
+var button = document.getElementById("")
 class KahootMan {
     constructor(name, PIN){
     this.bot = new Kahoot()
