@@ -1,12 +1,15 @@
+/*
 const Kahoot = require("kahoot.js-updated")
-var button = document.getElementById("")
+
+
+
 class KahootMan {
     constructor(name, PIN){
     this.bot = new Kahoot()
     this.name = name
     this.bot.join(PIN, this.name)
     this.on_join = function(){
-        console.log("Joined" + this.name)
+        console.log("Joined " + this.name)
     }
     this.on_question = function(question){
         console.log("Questioned")
@@ -29,4 +32,14 @@ function spam(PIN, Name, Amount){
         tailstring += " "
     }
 }
+*/
+
+var button = document.getElementById("sendButton")
+button.onClick = function(){
+    document.getElementById("PIN").innerHTML = "69"
+}
+
+
+
+
 
