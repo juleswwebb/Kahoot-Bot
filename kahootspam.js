@@ -1,7 +1,9 @@
-
 const Kahoot = require("kahoot.js-updated")
 
-
+function rand(min, max) {
+    let randomNum = Math.random() * (max - min) + min
+    return Math.round(randomNum)
+ }
 
 class KahootMan {
     constructor(name, PIN){
@@ -13,7 +15,7 @@ class KahootMan {
     }
     this.on_question = function(question){
         console.log("Questioned")
-        question.answer(0)
+        question.answer(rand(0,3))
     }
     this.bot.on("Joined", this.on_join)
     this.bot.on("QuestionStart", this.on_question)
@@ -32,9 +34,4 @@ function spam(PIN, Name, Amount){
         tailstring += " "
     }
 }
-
-
-
-
-
 
