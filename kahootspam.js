@@ -1,4 +1,3 @@
-var button = document.getElementById("sendButton")
-button.onclick = function(){
-    console.log("CLICKED BUTTON");
-};
+document.getElementById('a').addEventListener('click', e => {
+	alert('B');
+});
