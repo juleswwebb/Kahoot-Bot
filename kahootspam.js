@@ -1,4 +1,4 @@
-var button = document.getElementById("PIN")
-button.onClick = function(){
-    console.log("CLICKED BUTTON")
-}
+var button = document.getElementById("sendButton")
+button.onclick = function(){
+    console.log("CLICKED BUTTON");
+};
