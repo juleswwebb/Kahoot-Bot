@@ -1,0 +1,16 @@
+{
+  "name": "hellojavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kahoot.js",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "kahoot.js-updated": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
